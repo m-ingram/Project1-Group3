@@ -59,32 +59,25 @@ style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 
 ### Question 3: Did the CBT generate a more equitable distribution of talent? (Led by Molly)
-To evaluate this question, we first needed to define a measure to use for team performance (or talent).  
-Stat description, corr fig  
-RF description, pred vs actual fig
-Perf dist and test, dist fig
-
-
-
+To evaluate this question, we first needed to define a measure to use for team performance (or talent). The team performance statistics available for all year in our dataset are runs, at bats, hits, doubles, triples, homeruns, walks, strikeouts, stolen bases, caught stealing, runs averaged, earned runs, earned runs average, complete games, shutouts, saves, hits allowed, homeruns allowed, walks allowed, strikeouts allowed, errors, double plays, and fielding percentage.  We did not use batting or fielding performance factors because we wanted to capture overall team performance, not home versus away performance differences.  The following figure displays the correlations between the performance statistic, wins, and team salaries.  
 <img src="Output\performance correlations.png"
- alt="Correlations"
 style="display: inline-block; margin: 0 auto; max-width: 300px">
 
+The above figure shows there is no dominate relationship between any of the performance statistics and wins, so we needed a way to combine the information captured in the performance statistics into one outcome variable. There are many methods used for dimension reductioned but we use a random forest regressor approach because it's nonparametric and easy to implement. The random forest model uses the team performance statistics to predict a teams number of wins per season. The model was trained on half of the data and tested on the other half and achieved an accuracy of around 95%. The performance indicator we use is the model's predicted wins (based off of performance statistics) for each year-team observation. The figure below is the relationship between the predicated and actual wins.  
+<img src="Output\perdicted vs actual.png"
+style="display: inline-block; margin: 0 auto; max-width: 300px">  
+
+With the performance indicator, predicted wins, we compare the performance distributions before and after the introduction of the CBT. The distributions are shown in the figure below. Visually the post-CBT distribution appear tighter and shifted to the right. F-test and T-tests confirm that both of these differences are statistically signifant.  
+
+<img src="Output\perf distributions.png"
+style="display: inline-block; margin: 0 auto; max-width: 300px">  
 
 
 ### Conclusion
-What we found?  
-Teams didn’t change their spending post CBT  
-Player salaries are minimally related to team’s win-loss records  
+Our analysis suggests that the CBT did not change team spending behavior. The gaps in salaries between the highest and lowest spending teams grows dramaticly post-CBT. We find than player salaries do not predict how a team will fair over a season in terms of wins and losses.  But despite lack of relationship between salaries and wins, some teams continue spending a lot to bring in players. This may be better explained by a profit objective, as opposed to a performance objective. Big name players may generate greater benefits the team more through TV contracts, game attendence, and merchandise sales. Despite not changing salary spending, variation in team performance is not as large in the years after the CBT, which suggests that talent may be better distributed among teams.
 Team performance is (at least a little bit) more balanced post CBT  
 
-Discussion of other reasons for salary spending, audience, TV contracts, merch, 
-
-Limitations  
-Our focus was on team data, we did not account for player level characteristics  
-We have not controlled for any other League changes during this time period (expansions, union negotiations, draft changes, etc.)  
-control for team characteristics, managers, owners, etc  
-
+Our focus was on team data, thus we did not account for player level characteristics. Considering player charateristics may better illuminate the link between salaries and performance as well as talent distribution among the league but it was beyond the scope of our current analysis. It is also important to note that we have not controlled for any other league changes during this time period (expansions, union negotiations/strikes, draft changes, revenue sharing, etc.). We were also not able to controll for characteristics of teams, managers, owners, and other features that may impact hiring, salary, and performance outcomes.  
 
 
 ## Thanks/Credits
