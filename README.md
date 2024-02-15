@@ -3,9 +3,10 @@
 UofM Bootcamp Project 1 by Group 3 (baseball data)
 
 ## Contributors
+Clayton Knight,
 Molly Ingram ,
-Wanderson Oliveria ,
-Clayton Knight .
+Wanderson Oliveria
+
 
 ## Project Overview
 
@@ -59,4 +60,8 @@ style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 
 ## Thanks/Credits
+Thanks for Vishal Bhatnagar, our original fourth group member. Thanks to Sam Espe, Hunter Hollis, and Randy Sendek for their troubleshooting support.  
 
+Data was retrieved from <https://www.kaggle.com/datasets/open-source-sports/baseball-databank>
+
+Random Forest code was adapted from <https://towardsdatascience.com/random-forest-in-python-24d0893d51c0>
