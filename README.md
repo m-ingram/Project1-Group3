@@ -62,6 +62,7 @@ style="display: inline-block; margin: 0 auto; max-width: 300px">
 To evaluate this question, we first needed to define a measure to use for team performance (or talent).  
 Stat description, corr fig  
 RF description, pred vs actual fig
+Perf dist and test, dist fig
 
 
 
@@ -72,6 +73,18 @@ style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 
 ### Conclusion
+What we found?  
+Teams didn’t change their spending post CBT  
+Player salaries are minimally related to team’s win-loss records  
+Team performance is (at least a little bit) more balanced post CBT  
+
+Discussion of other reasons for salary spending, audience, TV contracts, merch, 
+
+Limitations  
+Our focus was on team data, we did not account for player level characteristics  
+We have not controlled for any other League changes during this time period (expansions, union negotiations, draft changes, etc.)  
+control for team characteristics, managers, owners, etc  
+
 
 
 ## Thanks/Credits
