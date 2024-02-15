@@ -2,9 +2,9 @@
 UofM Bootcamp Project 1 by Group 3 (baseball data)
 
 ## Contributors
-Molly Ingram
-Wanderson Oliveria
-Clayton Knight
+Molly Ingram ,
+Wanderson Oliveria ,
+Clayton Knight .
 
 ## Project Overview
 In 1997, Major League Baseball (MLB) introduced the Competitive Balance Tax (CBT) as a measure to deter teams from exploiting a spending advantage without consequences. This initiative aims to assess team performance by considering their financial capacity, linking victories to responsible spending, and penalizing excesses through taxes. The goal is to level the playing field and prevent teams from gaining an unfair advantage in acquiring higher-quality players by overspending. 
@@ -17,7 +17,22 @@ Despite occasional fluctuations in the gap between teams with the highest and lo
 
 ### Question 2
 
-### Question 3
+### Question 3: What was the most dominant team during the 30-year period and its correlation to salary .USD?
+-After analyzing the data, was showed that the New York Yankees (NYY) won most games during 30 years, hence being the most dominant team for a 30 years period. Potentially due to ownership and good management, by spending money on the team in order to win games.Overall, from 1985 to 2015 Teams have showed an exponential growth in salary, meaning teams are investing more in their players, however, after analyzing the data, concluded that there is no correlation between wins and salary spent per each team. One Example is (ANA), which won the most games in 2014 and had a total team salary spent of approx. $121M, that same year, (SFG) won 88 games and total spent of approx.163M.
+(NYY), the most dominant team, had spent the most and won the most games in 2009, however, the following year, 2010, it didn’t win the most games and still was the team that spent the most, approx. $206M. Hence, there is no correlation between wins and salary pear year for the most dominant team.
+
+<img src="Graphic 1.png"
+ alt="Correlations"
+ title="Optional title"
+style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+<img src="Graphic 2.png"
+ alt="Correlations"
+ title="Optional title"
+style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+
+
 
 ### Thanks/Credits
 
