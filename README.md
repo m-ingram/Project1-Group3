@@ -23,6 +23,12 @@ The system today is based on the 2002 collective bargaining agreement. Instead o
 2012 - 2015, after seeing teams go over more than three times, the agreement added a 50% taxation level when teams went over the limit four or more times. (These offenses must be in consecutive years for these percentages. If a team falls below the threshold one year the penalty resets the next year to the "first offense")  
 
 ### Repository Organization
+Baseball Dataset contains the Baseball Databank download from kaggle.  
+Output contains all generated .csv files and figures.  
+Presentations contains a pdf of our presentation slides.  
+Salary Thresholds contains the supplemental data on tax thresholds set for the 2003-2015 season and background information on how the taxes were implemented in each year.  
+data_cleaning_and_analysis.ipynb contains all code needed to generate the data and analysis for this project.  
+Grading rubrik is the project's requirements for reference.
 
 
 ## Project Analysis
@@ -53,6 +59,10 @@ style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 
 ### Question 3: Did the CBT generate a more equitable distribution of talent? (Led by Molly)
+To evaluate this question, we first needed to define a measure to use for team performance (or talent).  
+Stat description, corr fig  
+RF description, pred vs actual fig
+
 
 
 <img src="Output\performance correlations.png"
